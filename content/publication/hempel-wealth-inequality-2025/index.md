@@ -1,10 +1,10 @@
 ---
-title: '<br> New Estimates of Wealth Inequality in Canada'
+title: 'New Estimates of Wealth Inequality in Canada'
 authors:
 - Alexander Hempel
 date: '2025-02-01'
 publishDate: '2025-07-23T00:39:17.522086Z'
-publication_short: '<br> [*R&R at the Canadian Journal of Economics*]'
+publication_short: '<br> [**R&R at the Canadian Journal of Economics**]'
 publication_types:
 - manuscript
 abstract: Measures of wealth inequality are important indicators, but only exist in
