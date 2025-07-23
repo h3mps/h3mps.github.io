@@ -11,7 +11,7 @@
 {{ $resource := partial "functions/get_featured_image.html" $item }}
 {{ $anchor := $item.Params.image.focal_point | default "Center" }}
 
-<a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="mb-5">
+<a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="mb-5 block border border-gray-300 dark:border-gray-700 rounded-lg shadow hover:shadow-md transition duration-300">
   <div class="md:flex w-full max-w-5xl mx-auto">
     <div class="md:flex-shrink-0 overflow-hidden">
       {{ with $resource }}
