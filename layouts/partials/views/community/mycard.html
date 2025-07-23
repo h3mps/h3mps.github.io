@@ -12,7 +12,7 @@
 {{ $anchor := $item.Params.image.focal_point | default "Center" }}
 
 
-<div class="md:flex w-full max-w-5xl mx-auto block border border-gray-300 dark:border-gray-700 rounded-lg shadow hover:shadow-md transition duration-300">
+<div class="md:flex w-full max-w-5xl mx-auto block border border-gray-300 dark:border-gray-700 rounded-lg shadow hover:shadow-md transition duration-300 mb-5">
   <div class="md:flex-shrink-0 overflow-hidden">
     {{ with $resource }}
       {{ $image := .Fill (printf "655x655 %s" $anchor) }}
@@ -42,7 +42,7 @@
       <summary class="cursor-pointer font-semibold text-primary-600 dark:text-primary-400">
         Show Abstract
       </summary>
-      <div class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
+      <div class="block text-sm leading-tight font-medium text-black dark:text-white">
         {{ $item.Params.abstract | plainify | htmlUnescape | chomp -}}
       </div>
     </details>
