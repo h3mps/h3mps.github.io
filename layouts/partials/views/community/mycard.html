@@ -12,7 +12,7 @@
 {{ $anchor := $item.Params.image.focal_point | default "Center" }}
 
 <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="mb-5">
-  <div class="md:flex">
+  <div class="md:flex w-full max-w-5xl mx-auto">
     <div class="md:flex-shrink-0 overflow-hidden">
       {{ with $resource }}
         {{ $image := .Fill (printf "655x655 %s" $anchor) }}
@@ -41,7 +41,7 @@
           Show Abstract
         </summary>
         <div class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
-          {{ ($item.Params.abstract | default $item.Abstract) | plainify | htmlUnescape | chomp -}}
+          {{ $item.Params.abstract | plainify | htmlUnescape | chomp -}}
         </div>
       </details>
       {{ if $has_attachments }}
