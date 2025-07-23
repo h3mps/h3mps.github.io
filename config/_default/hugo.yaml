@@ -4,9 +4,9 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Website name
-title: Hugo Academic CV Theme
+title: Alexander Hempel
 # Website URL
-baseURL: 'https://example.com/'
+baseURL: 'hempeleconomics.com'
 
 ############################
 ## LANGUAGE
@@ -25,6 +25,7 @@ build:
   writeStats: true
 enableGitInfo: false
 summaryLength: 30
+abstractLength: 150
 pagination:
   pagerSize: 10
 enableEmoji: true
