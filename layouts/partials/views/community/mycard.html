@@ -27,15 +27,16 @@
     </a>
     <div class="pub-list-item view-citation">
       <span class="article-metadata li-cite-author">
-        {{ partial "page_metadata_authors" $item }} |  {{ $item.Date | time.Format (site.Params.locale.date_format | default ":date_long") -}}
+        {{ partial "page_metadata_authors" $item }} |  
+        {{ if $item.Params.publication_short }}
+          {{- $item.Params.publication_short | markdownify -}}
+        {{ else if $item.Params.publication }}
+          {{- $item.Params.publication | markdownify -}}
+        {{ end }}
       </span>
     </div>
     <div class="text-gray-500 dark:text-gray-400 text-sm mb-1">
-      {{ if $item.Params.publication_short }}
-        {{- $item.Params.publication_short | markdownify -}}
-      {{ else if $item.Params.publication }}
-        {{- $item.Params.publication | markdownify -}}
-      {{ end }}
+      {{ $item.Date | time.Format (site.Params.locale.date_format | default ":date_long") -}}
     </div>
     <details class="group">
       <summary class="cursor-pointer font-semibold text-primary-600 dark:text-primary-400">
