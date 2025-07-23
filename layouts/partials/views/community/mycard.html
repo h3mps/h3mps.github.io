@@ -47,12 +47,8 @@
       </div>
     </details>
     {{ if $has_attachments }}
-      <div class="flex flex-wrap gap-3 mt-4">
-        {{ range (partial "page_links" (dict "page" $item "is_list" 1)) }}
-          <div class="border border-primary-500 px-3 py-2 rounded transition">
-            {{ . }}
-          </div>
-        {{ end }}
+      <div class="flex flex-wrap gap-3 mt-4 attachments-block">
+        {{ partial "page_links" (dict "page" $item "is_list" 1) }}
       </div>
     {{ end }}
   </div>
