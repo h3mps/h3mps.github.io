@@ -29,7 +29,7 @@
           {{ partial "page_metadata_authors" $item }} |  {{ $item.Date | time.Format (site.Params.locale.date_format | default ":date_long") -}}
         </span>
       </div>
-      <div class="mt-2 text-gray-500 dark:text-gray-400 text-sm">
+      <div class="text-gray-500 dark:text-gray-400 text-sm mb-1">
         {{ if $item.Params.publication_short }}
           {{- $item.Params.publication_short | markdownify -}}
         {{ else if $item.Params.publication }}
