@@ -1,0 +1,25 @@
+/* Hugo Blox color theme: ALBERTA */
+:root {
+  --color-primary-50: 240 253 244;
+  --color-primary-100: 213 239 224;
+  --color-primary-200: 187 224 204;
+  --color-primary-300: 160 210 184;
+  --color-primary-400: 133 196 164;
+  --color-primary-500: 107 181 145;
+  --color-primary-600: 80 167 125;
+  --color-primary-700: 53 153 105;
+  --color-primary-800: 27 138 85;
+  --color-primary-900: 0 124 65;
+}
+.dark {
+  --color-primary-50: 220 240 230;
+  --color-primary-100: 196 227 212;
+  --color-primary-200: 171 214 193;
+  --color-primary-300: 147 201 175;
+  --color-primary-400: 122 188 157;
+  --color-primary-500: 98 176 138;
+  --color-primary-600: 73 163 120;
+  --color-primary-700: 49 150 102;
+  --color-primary-800: 24 137 83;
+  --color-primary-900: 0 124 65;
+}
