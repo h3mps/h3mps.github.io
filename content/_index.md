@@ -40,7 +40,6 @@ sections:
         exclude_featured: false
     design:
       view: citation
-      spacing: "1rem"
   - block: collection
     content:
       title: Teaching
@@ -52,5 +51,4 @@ sections:
     design:
       view: article-grid
       columns: 2
-      spacing: "1rem"
 ---
