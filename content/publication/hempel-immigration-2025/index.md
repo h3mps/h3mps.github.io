@@ -2,7 +2,7 @@
 title: 'The Impact of Immigration on Local Public Finances: Evidence from Canadian
   Municipalities'
 authors:
-- admin
+- Alexander Hempel
 - Feng Qiu
 - Sandeep Agarwal
 date: '2025-06-01'
