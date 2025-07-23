@@ -1,5 +1,5 @@
 ---
-title: 'Tightening the Belt: The Impact of Greenbelts on Housing Affordability'
+title: '<br> Tightening the Belt: The Impact of Greenbelts on Housing Affordability'
 authors:
 - Alexander Hempel
 date: '2025-03-01'

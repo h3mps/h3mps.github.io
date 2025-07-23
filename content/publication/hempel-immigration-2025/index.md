@@ -1,5 +1,5 @@
 ---
-title: 'The Impact of Immigration on Local Public Finances: Evidence from Canadian
+title: '<br> The Impact of Immigration on Local Public Finances: Evidence from Canadian
   Municipalities'
 authors:
 - Alexander Hempel

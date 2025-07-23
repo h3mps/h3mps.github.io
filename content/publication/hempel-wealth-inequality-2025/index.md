@@ -1,5 +1,5 @@
 ---
-title: New Estimates of Wealth Inequality in Canada
+title: '<br> New Estimates of Wealth Inequality in Canada'
 authors:
 - Alexander Hempel
 date: '2025-02-01'
