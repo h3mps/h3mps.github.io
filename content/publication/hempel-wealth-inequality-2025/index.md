@@ -19,4 +19,6 @@ abstract: Measures of wealth inequality are important indicators, but only exist
   in the top 1% wealth share can be explained by the collapse in the top 1%’s savings
   rate, which, while positive from an inequality perspective, could have important
   ramifications for future economic growth in Canada.
+
+url_pdf: 'hempel-wealth-inequality-2025.pdf'
 ---

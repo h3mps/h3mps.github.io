@@ -19,4 +19,6 @@ abstract: As immigration becomes the primary driver of population growth in many
   substantial heterogeneity across immigrant skill groups. We argue that low-skill
   immigrants to Canada are in fact net fiscal contributors in the municipal context,
   due to the more complex interactions between municipal budgets and the skill distribution.
+
+url_pdf: 'hempel-immigration-2025.pdf'
 ---
