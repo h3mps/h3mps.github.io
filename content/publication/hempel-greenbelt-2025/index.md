@@ -28,7 +28,7 @@ summary: Greenbelts are a widespread policy tool used to protect natural spaces 
   have been raised about the impact of greenbelts on housing markets. In this paper,
   I evaluate the impact that the introduction of the world’s largest contiguous greenbelt,
   which was formed around Toronto in the early-2000s, had on housing prices across
-  the region. To capture the key dynamics of a greenbelt, I develop an estimable model
+  the region. <!-more-> To capture the key dynamics of a greenbelt, I develop an estimable model
   of the housing market with heterogeneous supply elasticities and a nested logit
   demand system. Using rich transaction and project-level data on housing prices and
   developments from 2000-2010, I estimate housing supply and demand curves separately,
@@ -39,4 +39,6 @@ summary: Greenbelts are a widespread policy tool used to protect natural spaces 
   the Greenbelt does not explain much of the deterioration in housing affordability.
   Skyrocketing housing costs can instead be explained by the fact that strong housing
   demand within the urban footprint is met with highly inelastic housing supply.
+
+url_pdf: 'hempel-greenbelt-2025.pdf'
 ---
