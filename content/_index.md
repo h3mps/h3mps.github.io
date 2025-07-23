@@ -19,7 +19,6 @@ sections:
         text: Download CV
         url: uploads/Hempel_CV.pdf
     design:
-      css_class: dark
       background:
         image:
           # Add your image background to `assets/media/`.
