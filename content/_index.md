@@ -19,9 +19,7 @@ sections:
         text: Download CV
         url: uploads/Hempel_CV.pdf
     design:
-      css_class: dark
       background:
-        color: black
         image:
           # Add your image background to `assets/media/`.
           filename: maybebackground.png
@@ -30,6 +28,7 @@ sections:
           size: cover
           position: center
           parallax: false
+          text_color_light: true
   - block: collection
     id: research
     content:
