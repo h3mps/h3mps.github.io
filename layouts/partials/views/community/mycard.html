@@ -10,8 +10,6 @@
 
 {{ $resource := partial "functions/get_featured_image.html" $item }}
 {{ $anchor := $item.Params.image.focal_point | default "Center" }}
-{{/* APA Style */}}
-{{ if eq (site.Params.publications.citation_style | default "apa") "apa" }}
 
 <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="mb-5">
   <div class="md:flex">
@@ -25,21 +23,16 @@
     <div class="p-8">
       <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">{{ $item.Title }}</div>
       <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">
-        {{ if $item.Params.publication_short }}
-          {{- $item.Params.publication_short | markdownify -}}.
-        {{ else if $item.Params.publication }}
-          {{- $item.Params.publication | markdownify -}}.
-        {{ end }}
         {{- $item.Date | time.Format (site.Params.locale.date_format | default ":date_long") -}}
       </p>
       <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
         {{ ($item.Params.summary | default $item.Summary) | plainify | htmlUnescape | chomp -}}
       </p>
+      {{ if $has_attachments }}
+      <div class="flex flex-wrap space-x-3">
+        {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+      </div>
+      {{ end }}
     </div>
-    {{ if $has_attachments }}
-    <div class="flex flex-wrap space-x-3">
-      {{ partial "page_links" (dict "page" $item "is_list" 1) }}
-    </div>
-    {{ end }}
   </div>
 </a>
