@@ -13,16 +13,7 @@
   --color-primary-950: 255 219 5;
 }
 
-[data-wc-dark] {
-  --color-primary-50: 255 219 5;
-  --color-primary-100: 255 219 5;
-  --color-primary-200: 255 219 5;
-  --color-primary-300: 255 219 5;
-  --color-primary-400: 255 219 5;
-  --color-primary-500: 255 219 5;
-  --color-primary-600: 255 219 5;
-  --color-primary-700: 255 219 5;
-  --color-primary-800: 255 219 5;
-  --color-primary-900: 255 219 5;
-  --color-primary-950: 255 219 5;
+#about, 
+#about * {
+  color: rgb(255 255 255) !important;
 }
