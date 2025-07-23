@@ -12,9 +12,9 @@
   --color-primary-900: 0 124 65;
 }
 .dark {
-  --color-primary-50: 220 240 230;
-  --color-primary-100: 196 227 212;
-  --color-primary-200: 171 214 193;
+  --color-primary-50: 255 255 255;
+  --color-primary-100: 255 255 255;
+  --color-primary-200: 255 255 255;
   --color-primary-300: 147 201 175;
   --color-primary-400: 122 188 157;
   --color-primary-500: 98 176 138;
