@@ -9,7 +9,7 @@ design:
   spacing: "3rem"
 
 sections:
-  - block: resume-biography
+  - block: community/resume-biography-adjavatar
     id: about
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
