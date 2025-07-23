@@ -6,7 +6,7 @@ type: landing
 
 design:
   # Default section spacing
-  spacing: "3rem"
+  spacing: "1rem"
 
 sections:
   - block: resume-biography-3
@@ -31,6 +31,7 @@ sections:
           position: center
           parallax: false
   - block: collection
+    id: research
     content:
       title: Working Papers
       text: ""
@@ -41,6 +42,7 @@ sections:
     design:
       view: citation
   - block: collection
+    id: teaching
     content:
       title: Teaching
       text: ""
