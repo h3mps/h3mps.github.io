@@ -7,7 +7,7 @@ type: landing
 design:
   # Default section spacing
   spacing:
-      padding: [3, 0, 3, 0]
+      padding: [1, 0, 1, 0]
 
 sections:
   - block: resume-biography-3
@@ -42,5 +42,5 @@ sections:
     design:
       view: citation
       spacing:
-        padding: [3, 0, 3, 0]
+        padding: [1, 0, 1, 0]
 ---
