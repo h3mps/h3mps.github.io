@@ -6,7 +6,8 @@ type: landing
 
 design:
   # Default section spacing
-  spacing: "3rem"
+  spacing:
+      padding: [3, 0, 3, 0]
 
 sections:
   - block: resume-biography-3
@@ -17,7 +18,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: uploads/resume.pdf
+        url: uploads/Hempel_CV.pdf
     design:
       css_class: dark
       background:
@@ -41,5 +42,5 @@ sections:
     design:
       view: citation
       spacing:
-        padding: [0, 0, 0, 0]
+        padding: [3, 0, 3, 0]
 ---
