@@ -40,7 +40,7 @@ sections:
           - publication
         exclude_featured: false
     design:
-      view: mycard
+      view: community/mycard
   #- block: collection
     # id: teaching
     # content:
