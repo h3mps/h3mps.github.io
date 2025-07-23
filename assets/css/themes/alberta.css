@@ -35,11 +35,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 250px;
-    height: 250px;
+    margin-top: 10px;
   }
-
-.avatar {
+  
+  .avatar {
     width: 250px;
     height: 250px;
     object-fit: cover;
