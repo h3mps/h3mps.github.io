@@ -21,15 +21,14 @@
       {{end}}
     </div>
     <div class="p-8">
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">
+        {{ $item.Title }}
+      </div>
       <div class="pub-list-item view-citation" style="margin-bottom: 1rem">
         <span class="article-metadata li-cite-author">
-          {{ partial "page_metadata_authors" $item }}
+          {{ partial "page_metadata_authors" $item }} | {{- $item.Date | time.Format (site.Params.locale.date_format | default ":date_long") -}}
         </span>
       </div>
-      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">{{ $item.Title }}</div>
-      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">
-        {{- $item.Date | time.Format (site.Params.locale.date_format | default ":date_long") -}}
-      </p>
       <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
         {{ ($item.Params.summary | default $item.Summary) | plainify | htmlUnescape | chomp -}}
       </p>
