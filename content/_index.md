@@ -40,6 +40,17 @@ sections:
         exclude_featured: false
     design:
       view: citation
-      spacing:
-        padding: [1, 0, 1, 0]
+      spacing: "1rem"
+  - block: collection
+    content:
+      title: Teaching
+      text: ""
+      filters:
+        folders:
+          - teaching
+        exclude_featured: false
+    design:
+      view: article-grid
+      columns: 2
+      spacing: "1rem"
 ---

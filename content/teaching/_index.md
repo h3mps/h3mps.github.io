@@ -11,7 +11,7 @@ cascade:
 
 sections:
   - block: collection
-    id: teaching
+    id: teaching-hugo
     content:
       title: Teaching
       filters:
