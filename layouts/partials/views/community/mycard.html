@@ -38,10 +38,10 @@
       </div>
       <details class="group">
         <summary class="cursor-pointer font-semibold text-primary-600 dark:text-primary-400">
-          Show abstract
+          Show Abstract
         </summary>
         <div class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
-          {{ ($item.Params.summary | default $item.Summary) | plainify | htmlUnescape | chomp -}}
+          {{ ($item.Params.abstract | default $item.Abstract) | plainify | htmlUnescape | chomp -}}
         </div>
       </details>
       {{ if $has_attachments }}
