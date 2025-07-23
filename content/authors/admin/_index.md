@@ -44,8 +44,8 @@ profiles:
 
 interests:
   - Urban Economics
-  - Real Estate Economics
   - Public Economics
+  - Environmental Economics
 
 education:
   - area: PhD in Economics
@@ -83,4 +83,4 @@ languages:
 
 Welcome to my site!
 
-My research interests are in urban, real estate and public economics. My work applies cutting-edge empirical approaches to a variety of policy relevant questions. I am currently a Postdoctoral Fellow at the University of Alberta in the Department of Resource Economics and Environmental Sociology (REES) and am part of the Bridging Divides U of A team.
+My research interests are in urban, real estate, public and environmental economics. My work applies cutting-edge empirical approaches to a variety of policy relevant questions. I am currently a Postdoctoral Fellow at the University of Alberta in the Department of Resource Economics and Environmental Sociology (REES) and am part of the Bridging Divides U of A team.
