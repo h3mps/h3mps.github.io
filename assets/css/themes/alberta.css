@@ -30,3 +30,10 @@
 .attachments-block a:hover {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
