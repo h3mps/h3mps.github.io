@@ -1,6 +1,16 @@
 /* Hugo Blox color theme: Alberta */
 :root {
+  --color-primary-50: 0 124 65;
+  --color-primary-100: 0 124 65;
+  --color-primary-200: 0 124 65;
+  --color-primary-300: 0 124 65;
+  --color-primary-400: 0 124 65;
   --color-primary-500: 0 124 65;
+  --color-primary-600: 0 124 65;
+  --color-primary-700: 0 124 65;
+  --color-primary-800: 0 124 65;
+  --color-primary-900: 0 124 65;
+  --color-primary-950: 0 124 65;
 }
 
 #about, 
