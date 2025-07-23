@@ -21,8 +21,15 @@ sections:
     design:
       css_class: dark
       background:
-        color: '#007c41'
-        text_color_light: true
+        color: black
+        image:
+          # Add your image background to `assets/media/`.
+          filename: coolbackgrounds-fractalize-ranger_made.png
+          filters:
+            brightness: 1.0
+          size: cover
+          position: center
+          parallax: false
   - block: collection
     id: research
     content:
