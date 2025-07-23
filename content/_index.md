@@ -41,16 +41,16 @@ sections:
         exclude_featured: false
     design:
       view: citation
-  - block: collection
-    id: teaching
-    content:
-      title: Teaching
-      text: ""
-      filters:
-        folders:
-          - teaching
-        exclude_featured: false
-    design:
-      view: article-grid
-      columns: 2
+  #- block: collection
+    # id: teaching
+    # content:
+    #   title: Teaching
+    #   text: ""
+    #   filters:
+    #     folders:
+    #       - teaching
+    #     exclude_featured: false
+    # design:
+    #   view: article-grid
+    #   columns: 2
 ---

@@ -21,4 +21,5 @@ abstract: As immigration becomes the primary driver of population growth in many
   due to the more complex interactions between municipal budgets and the skill distribution.
 
 url_pdf: 'hempel-immigration-2025.pdf'
+url_slides: 'publication/hempel-immigration-2025/hempel-cea-2025.pdf'
 ---

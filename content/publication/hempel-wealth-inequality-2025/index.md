@@ -22,4 +22,5 @@ abstract: Measures of wealth inequality are important indicators, but only exist
   ramifications for future economic growth in Canada.
 
 url_pdf: 'hempel-wealth-inequality-2025.pdf'
+url_slides: 'publication/hempel-wealth-inequality-2025/hempel-cea-2022.pdf'
 ---

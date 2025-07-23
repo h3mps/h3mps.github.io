@@ -41,4 +41,5 @@ summary: Greenbelts are a widespread policy tool used to protect natural spaces 
   demand within the urban footprint is met with highly inelastic housing supply.
 
 url_pdf: 'hempel-greenbelt-2025.pdf'
+url_slides: 'publication/hempel-greenbelt-2025/hempel-ueaeu-2025.pdf'
 ---
