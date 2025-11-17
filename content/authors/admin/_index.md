@@ -24,7 +24,7 @@ role: Postdoctoral Fellow
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: University of Alberta
+  - name: University of Alberta & Bank of Canada
     url: ''
 
 # Social network links
@@ -83,4 +83,4 @@ languages:
 
 Welcome to my site!
 
-My research interests are in urban, real estate, public and environmental economics. My work applies cutting-edge empirical approaches to a variety of policy relevant questions. I am currently a Postdoctoral Fellow at the University of Alberta in the Department of Resource Economics and Environmental Sociology (REES) and am part of the Bridging Divides U of A team.
+My research interests are in urban, real estate, public and environmental economics. Using a combination of reduced-form and structural methods, I seek to answer important economic policy questions such as the impact of land use regulations on housing affordability, the extent of wealth inequality in Canada and the impact of immigration on municipal finances. I am currently a Postdoctoral Fellow at the University of Alberta School of Business working on projects at the Bank of Canada in Ottawa. Since completing my PhD in Economics from the University of Toronto in 2024, I have also done work with the Bridging Divides project and the School of Cities at the University of Toronto.
