@@ -41,17 +41,17 @@ sections:
         exclude_featured: false
     design:
       view: community/mycard
-  - block: collection
-    id: research
-    content:
-      title: Work in Progress
-      text: ""
-      filters:
-        folders:
-          - workinprogress
-        exclude_featured: true
-    design:
-      view: community/mycard
+  # - block: collection
+  #  id: research
+  #  content:
+  #    title: Work in Progress
+  #    text: ""
+  #    filters:
+  #      folders:
+  #        - workinprogress
+  #      exclude_featured: true
+  #  design:
+  #    view: community/mycard
   #- block: collection
     # id: teaching
     # content:
