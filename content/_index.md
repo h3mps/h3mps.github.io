@@ -41,12 +41,6 @@ sections:
         exclude_featured: false
     design:
       view: community/mycard
-  - block: markdown
-    id: wealth_inequality_dashboard
-    content:
-      filename: wealth_inequality_dashboard.md
-    design:
-      view: showcase
   # - block: collection
   #  id: research
   #  content:
