@@ -41,6 +41,15 @@ sections:
         exclude_featured: false
     design:
       view: community/mycard
+  - block: collection
+    id: research
+    content:
+      title: Wealth Inequality Dashboard
+      text: ""
+      filters:
+        folders:
+          - project
+        exclude_featured: true
   # - block: collection
   #  id: research
   #  content:
