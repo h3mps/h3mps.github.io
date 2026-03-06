@@ -42,14 +42,9 @@ sections:
     design:
       view: community/mycard
   - block: markdown
-    id: research
+    id: wealth_inequality_dashboard
     content:
-      title: Canadian Wealth Inequality
-      text: ""
-      filters:
-        folders:
-          - dashboards/wealth_inequality
-        exclude_featured: true
+      filename: wealth_inequality_dashboard.md
     design:
       view: showcase
   # - block: collection
