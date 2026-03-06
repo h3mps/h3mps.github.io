@@ -48,7 +48,7 @@ sections:
       text: ""
       filters:
         folders:
-          - project
+          - wealth_inequality_dashboard
         exclude_featured: true
   # - block: collection
   #  id: research
