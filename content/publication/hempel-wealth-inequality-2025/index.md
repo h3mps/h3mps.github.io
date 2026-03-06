@@ -24,3 +24,13 @@ abstract: Measures of wealth inequality are important indicators, but only exist
 url_pdf: 'hempel-wealth-inequality-2025.pdf'
 url_slides: 'publication/hempel-wealth-inequality-2025/hempel-cea-2022.pdf'
 ---
+## Wealth Inequality Dashboard
+
+<select id="pce-select"></select>
+
+<button id="download-data">Download Data</button>
+
+<div id="topshares-chart" style="width:100%; height:500px;"></div>
+
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+<script src="/js/topshares.js"></script>
