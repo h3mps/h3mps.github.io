@@ -5,8 +5,6 @@ authors:
 date: '2025-02-01'
 publishDate: '2025-07-23T00:39:17.522086Z'
 publication_short: '**R&R at the Canadian Journal of Economics**'
-publication_types:
-- manuscript
 abstract: Measures of wealth inequality are important indicators, but only exist in
   a handful of countries. This paper is the first to estimate the distribution of
   wealth in Canada on a regular basis from 1990-2018. Using the income capitalization
@@ -29,7 +27,9 @@ design:
   spacing: "3rem"
 ---
 
+---
 ## Wealth Inequality Dashboard
+---
 
 <select id="pce-select"></select>
 
