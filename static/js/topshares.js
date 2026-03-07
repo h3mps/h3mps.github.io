@@ -45,7 +45,14 @@ document.addEventListener("DOMContentLoaded", async () => {
       type: "scatter",
       mode: "lines+markers",
       name: selectedPce,
-      hovertemplate: "Year: %{x}<br>Share: %{y:.2f}<extra></extra>"
+      line: {
+        color: "red",
+        width: 3
+      },
+      marker: {
+        color: "red"
+      },
+      hovertemplate: "Year: %{x}<br>Share: %{y:.1f}%<extra></extra>"
     };
 
     const layout = {
@@ -54,7 +61,9 @@ document.addEventListener("DOMContentLoaded", async () => {
         title: "Year"
       },
       yaxis: {
-        title: "Wealth share (%)"
+        title: "Wealth share (%)",
+        rangemode: "tozero",
+        ticksuffix: "%"
       },
       margin: {
         l: 60,
@@ -75,11 +84,15 @@ document.addEventListener("DOMContentLoaded", async () => {
   function populateDropdown(pceValues) {
     selectEl.innerHTML = "";
 
-    pceValues.forEach((pce, index) => {
+    pceValues.forEach(pce => {
       const option = document.createElement("option");
       option.value = pce;
       option.textContent = pce;
-      if (index === 0) option.selected = true;
+
+      if (pce === "Top 1%") {
+        option.selected = true;
+      }
+
       selectEl.appendChild(option);
     });
   }
@@ -121,7 +134,9 @@ document.addEventListener("DOMContentLoaded", async () => {
     const pceValues = getUniquePceValues(rawData);
     populateDropdown(pceValues);
 
-    const initialPce = pceValues[0];
+    const initialPce = pceValues.includes("Top 1%")
+    ? "Top 1%"
+    : pceValues[0];
     drawChart(initialPce);
 
     selectEl.addEventListener("change", (event) => {

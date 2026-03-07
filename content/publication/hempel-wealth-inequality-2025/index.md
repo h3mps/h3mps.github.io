@@ -17,11 +17,16 @@ design:
 
 ---
 ## Wealth Inequality Dashboard
----
 
-<select id="pce-select"></select>
+<div style="display:flex; align-items:center; gap:10px; margin-bottom:15px;">
 
-<button id="download-data">Download Data</button>
+  <label for="pce-select"><strong>Wealth group:</strong></label>
+
+  <select id="pce-select"></select>
+
+  <button id="download-data">Download data</button>
+
+</div>
 
 <div id="topshares-chart" style="width:100%; height:400px;"></div>
 
