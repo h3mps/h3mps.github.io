@@ -2,6 +2,9 @@
 title: 'Bank Branch Closures and the Local Customer Base: Evidence from Consumer Credit Data'
 authors:
 - Alexander Hempel
+- Anson Ho
+- Barry Scholnick
+- Angelika Welte
 date: '2026-05-10'
 publishDate: '2026-05-10T00:39:17.506012Z'
 publication_types:

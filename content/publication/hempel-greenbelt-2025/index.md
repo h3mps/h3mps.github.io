@@ -6,6 +6,7 @@ date: '2025-03-01'
 publishDate: '2025-07-23T00:39:17.506012Z'
 publication_types:
 - manuscript
+publication_short: '*Job Market Paper (2024)*'
 abstract: Greenbelts are a widespread policy tool used to protect natural spaces from
   urban sprawl. With rising housing costs in many metropolitan areas, numerous questions
   have been raised about the impact of greenbelts on housing markets. In this paper,
