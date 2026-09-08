@@ -1,0 +1,54 @@
+/* Hugo Blox color theme: Alberta */
+:root {
+  --color-primary-50: 0 0 0;
+  --color-primary-100: 0 0 0;
+  --color-primary-200: 0 0 0;
+  --color-primary-300: 0 0 0;
+  --color-primary-400: 104, 136, 186;
+  --color-primary-500: 104, 136, 186;
+  --color-primary-600: 104, 136, 186;
+  --color-primary-700: 104, 136, 186;
+  --color-primary-800: 104, 136, 186;
+  --color-primary-900: 104, 136, 186;
+  --color-primary-950: 104, 136, 186;
+}
+
+/* About section */
+#about {
+  color: rgb(0 0 0);
+}
+
+/* Light background behind bio text */
+#about .max-w-prose {
+  background: rgba(255, 255, 255, 0.88);
+  padding: 1.5rem 2rem;
+  border-radius: 12px;
+}
+
+.attachments-block a {
+  border: 2px solid rgb(var(--color-primary-500));
+  background-color:  rgb(255, 255, 255);
+  color:  rgb(var(--color-primary-500));
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.2rem;
+  margin-right: 0.25rem;
+  display: inline-block;
+}
+
+.attachments-block a:hover {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.avatar-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .avatar {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
