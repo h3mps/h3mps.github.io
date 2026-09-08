@@ -13,16 +13,24 @@
   --color-primary-950: 104, 136, 186;
 }
 
-/* About section */
-#about {
-  color: rgb(0 0 0);
+/* About section: make all text black */
+#about,
+#about * {
+  color: rgb(0 0 0) !important;
 }
 
 /* Light background behind bio text */
 #about .max-w-prose {
-  background: rgba(255, 255, 255, 0.88);
+  background: rgba(255, 255, 255, 0.90);
   padding: 1.5rem 2rem;
   border-radius: 12px;
+}
+
+/* Keep button text white */
+#about a.btn,
+#about .btn,
+#about .attachments-block a {
+  color: rgb(255 255 255) !important;
 }
 
 .attachments-block a {
