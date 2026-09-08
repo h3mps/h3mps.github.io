@@ -48,8 +48,9 @@
 }
 
 /* Links/buttons within bio stay white */
-#about .max-w-prose a {
-  color: rgb(255 255 255) !important;
+#about .max-w-prose a svg {
+  color: white !important;
+  stroke: white !important;
 }
 
 .avatar-wrapper {
