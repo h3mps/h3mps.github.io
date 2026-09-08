@@ -24,7 +24,7 @@ sections:
       background:
         image:
           # Add your image background to `assets/media/`.
-          filename: maybebackground.png
+          filename: plant_background.jpg
           filters:
             brightness: 1.0
           size: cover
